@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mushalf Alavi Shopnil</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        h1 {
+            color: #4CAF50;
+            text-align: center;
+        }
+
+        h2, h4, h5 {
+            color: #333;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            animation: zoomIn 1s ease;
+        }
+
+        @keyframes zoomIn {
+            from {
+                transform: scale(0.5);
+            }
+            to {
+                transform: scale(1);
+            }
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ddd;
+            margin: 20px 0;
+        }
+
+        ul, ol {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li:before {
+            content: "\2022";
+            color: #4CAF50;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        ol li {
+            counter-increment: my-awesome-counter;
+        }
+
+        ol li:before {
+            content: counter(my-awesome-counter);
+            color: #4CAF50;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-right: 0.5em;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mushalf Alavi Shopnil</h1>
+        <img src="./428597999_906639710909581_5196955080864347188_n.jpg" alt="Profile Picture" height="200"/>
+        <h2>Summary</h2>
+        <h4>Meet Shopnil, a Computer Science Engineering (CSE) student with a passion for programming, specializing in Java, C, and Full Stack Development. Shopnil's journey of engineering began with a curiosity about how computers hardware work and interact with software.</h4>
+        <hr/>
+        <h2>Education</h2>
+        <ul>
+            <li>The Bachelor of Science in Engineering (BSE) program in computer science and engineering.</li>
+        </ul>
+        <h2>Work Experience</h2>
+        <ul>
+            <li><b>Development Trainee (Tech Institute)</b></li>
+            <ul>
+                <li>Engaged in a structured training program focused on Java and C programming languages, covering topics such as data structures, algorithms, and object-oriented design principles.</li>
+                <li>Demonstrated continuous learning and improvement through regular assessments</li>
+                <li>Explored full-stack development, completing projects where I bridged front and back ends seamlessly. Using frameworks like Spring Boot and React.js, I crafted RESTful APIs for smooth communication and built responsive user interfaces.</li>
+            </ul>
+        </ol>
+        <hr/>
+        <h2>Skills</h2>
+        <ul>
+            <li>WordPress, plugin integration, SEO implementation, website design, email support tasks.</li>
+        </ul>
+        <hr/>
+        <h2>Others</h2>
+        <ul>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./Hobbies.html">Hobbies</a></li>
+        </ul>
+    </div>
+
+    <script>
+        // JavaScript for changing header color on mouse hover
+        const header = document.querySelector('h1');
+        header.addEventListener('mouseover', function() {
+            this.style.color = '#ff5722';
+        });
+        header.addEventListener('mouseout', function() {
+            this.style.color = '#4CAF50';
+        });
+    </script>
+</body>
+</html>
